@@ -1,0 +1,91 @@
+h1 {
+  color: red;
+}
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+hr {
+  width: 95%;
+  border-color: silver;
+  border-top: 10px;
+  margin: 30px auto;
+}
+
+.navigation {
+  height: 800px;
+  width: 15%;
+  margin: auto;
+  display: flex;
+  background-color: #295063;
+  /* check the refarence and change the width */
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.options {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.material-icons {
+  margin: auto auto;
+}
+
+.option {
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+}
+
+.option .text {
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.option:first-child {
+  height: 100px;
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: #00b0ff;
+}
+
+.main {
+  height: 800px;
+  width: 85%;
+  background-color: #f3f3f3;
+}
+
+.card-background {
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.summary {
+  width: 95%;
+  height: 150px;
+  margin: 16px auto;
+  background-color: #ffffff;
+}
+
+.subscriptions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  margin: 32px auto;
+  background-color: #ffffff;
+}
+
+/* implement hover card lists */
+
+.subscription {
+  width: 450px;
+  height: 300px;
+  margin: 8px;
+  background-color: royalblue;
+}
